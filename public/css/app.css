@@ -1,0 +1,51 @@
+.formulario-uno{
+    width: 80%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 15px;
+}
+
+.formulario-dos{
+    width: 47%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 15px;
+}
+.formulario-tres{
+    width: 32%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 15px;
+}
+
+.formulario-cuatro{
+    width: 23.5%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 15px;
+}
+
+.iconos-btn{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center
+}
+
+.centrar{
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.message-edit, .message-error {
+    min-width: 240px;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 2000;
+    opacity: 0.9;
+}
+
+.table-td-vertical td{
+    vertical-align: middle;
+}
