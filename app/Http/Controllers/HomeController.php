@@ -32,7 +32,7 @@ class HomeController extends Controller
     public function museoStore(Request $request){
         $reglas = [
             'titulo' => 'required|max:255',
-            'descripcion' => 'required|max:400',
+            'descripcion' => 'required|max:1500',
             'fecha' => 'required|date',
             'imagen' => 'required|image|max:5120',
         ];
@@ -42,7 +42,7 @@ class HomeController extends Controller
             'fecha.required' => 'La fecha es obligatoria.',
             'fecha.date' => 'La fecha debe tener un formato válido.',
             'descripcion.required' => 'La descripción es obligatoria.',
-            'descripcion.max' => 'La descripción no puede superar los 400 caracteres.',
+            'descripcion.max' => 'La descripción no puede superar los 1500 caracteres.',
             'imagen.required' => 'La imagen es requerida.',
             'imagen.image' => 'El archivo debe ser una imagen.',
             'imagen.max' => 'La imagen no puede superar los 5MB de tamaño.',
@@ -68,7 +68,7 @@ class HomeController extends Controller
         // Reglas de validación
         $reglas = [
             'titulo' => 'required|max:255',
-            'descripcion' => 'required|max:400',
+            'descripcion' => 'required|max:1500',
             'fecha' => 'required|date',
             'imagen' => 'required|image|max:5120',
         ];
@@ -78,7 +78,7 @@ class HomeController extends Controller
             'fecha.required' => 'La fecha es obligatoria.',
             'fecha.date' => 'La fecha debe tener un formato válido.',
             'descripcion.required' => 'La descripción es obligatoria.',
-            'descripcion.max' => 'La descripción no puede superar los 400 caracteres.',
+            'descripcion.max' => 'La descripción no puede superar los 1500 caracteres.',
             'imagen.required' => 'La imagen es requerida.',
             'imagen.image' => 'El archivo debe ser una imagen.',
             'imagen.max' => 'La imagen no puede superar los 5MB de tamaño.',
