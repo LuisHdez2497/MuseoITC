@@ -16,7 +16,7 @@ class CreateMuseoTable extends Migration
         Schema::create('museo', function (Blueprint $table) {
             $table->id();
             $table->string('titulo');
-            $table->string('descripcion', 400);
+            $table->string('descripcion', 1500);
             $table->string('url_imagen')->nullable();
             $table->date('fecha');
             $table->timestamps();
