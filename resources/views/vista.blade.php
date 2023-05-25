@@ -22,8 +22,10 @@
         <div style="background-image: url('{{$data['path']}}')" class="div-img">
 
         </div>
-        <div>
-            {!! $data['descripcion'] !!}
+        <div class="desc-div">
+            <div class="descripcion-div">
+                {!! $data['descripcion'] !!}
+            </div>
         </div>
         <h4>{{ $data['fecha'] }}</h4>
     </div>
